@@ -1,0 +1,112 @@
+
+#btbt:hover{
+
+    color:  white !important;
+    transform: scale(1.05);
+  }
+  #btbt{
+    color: rgb(36, 5, 5);
+    background-color:  rgb(255, 165, 0,.5) !important;
+    transform: scale(1.05);
+  }
+  table{
+    align-content: center;
+  }
+  .elementosFormularios {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 600px) {
+    #btbt {
+        /* position: absolute; */
+        margin-right: -70% !important;
+        /* top: 0; Opcional: se quiser posicionar também no topo */
+        margin-bottom: 1% !important;
+    }
+    .input2{
+      margin-top: 0% !important;
+      margin-bottom: 0% !important;
+    }
+
+    }
+
+    /* Certifique-se de que o contêiner pai tem posição relativa */
+    .container {
+        position: relative;
+    }
+
+.tituloformulario {
+  background-color: rgba(223, 219, 214, 0.5) !important;
+  margin-top:0;
+  padding-top:0%;
+  font-weight:bolder;
+}
+
+.select2-container .select2-selection--single {
+  height: 38px; /* Ajuste a altura conforme necessário */
+  border: 1px solid #ced4da; /* Borda padrão para combinar com outros inputs */
+  border-radius: 4px;
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza horizontalmente */
+  transition: border-color 0.3s;
+  padding-left: 12px; /* Adiciona padding esquerdo para alinhar com outros inputs */
+  box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+  padding: 0; /* Remove padding adicional */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  width: 100%;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 36px; /* Ajuste a altura conforme necessário */
+  display: flex;
+  align-items: center;
+}
+.select2-container--focus .select2-selection {
+  border-color:  rgba(247, 207, 134, 0.5) ; /* Cor da borda quando em foco */
+}
+input:focus, select:focus, .select2-selection:focus {
+  border-color:  rgba(247, 207, 134, 0.5); /* Cor da borda quando em foco para inputs e selects normais */
+  outline: none; /* Remove o outline padrão */
+}
+.form-select,
+.form-control {
+border: 1px solid  rgba(247, 207, 134, 0.5)  !important;
+box-shadow: none !important;
+}
+.form-select:focus,
+.form-control:focus {
+border: 1px solid  rgba(247, 207, 134, 0.5) !important;
+box-shadow: none !important;
+outline: none !important;
+}
+.select2-container .select2-selection--single {
+height: 38px; /* Ajuste a altura conforme necessário */
+display: flex;
+align-items: center;
+justify-content: center; /* Centraliza horizontalmente */
+border: 1px solid  rgba(247, 207, 134, 0.5)  !important;
+box-shadow: none !important;
+padding-left: 0; /* Remove padding */
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+padding: 0; /* Remove padding adicional */
+text-align: center; /* Centraliza o texto horizontalmente */
+width: 100%;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+height: 36px; /* Ajuste a altura conforme necessário */
+display: flex;
+align-items: center;
+}
+.select2-container--focus .select2-selection {
+border: 1px solid  rgba(247, 207, 134, 0.5) black !important;
+box-shadow: none !important;
+}
+input:focus, select:focus, .select2-selection:focus {
+border: 1px solid  rgba(247, 207, 134, 0.5)  !important; /* Borda preta quando em foco */
+outline: none !important; /* Remove o outline padrão */
+}

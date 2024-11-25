@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+h1, p{
+    text-align: center;
+    color: black;
+}
+
+*{
+    font-size: 18px !important;
+} 
+
+   /* Estilo padrão para telas menores */
+   
+@media (max-width: 599px) {
+ 
+#em {
+    font-size: 19px !important;
+}
+
+}
+
+/* Estilo para telas grandes */
+@media (min-width: 600px) {
+  .form-select{
+    margin-top: 3% !important;
+  }
+  select.form-select:focus {
+    border:  solid 1px  rgb(255, 165, 0,.5) !important;
+    outline: solid 2px  rgb(255, 165, 0,.5) !important;
+  }
+    #em {
+        font-size: 25px !important;
+    }
+
+    select.form-select {
+      border:  solid 1px  rgb(255, 165, 0,.5) !important;
+    }
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+   
+}
+
+.row>* {
+  margin-top: 0% !important;
+}
+
+
+form input {
+    padding: 15px;
+    font-size: 14px;
+    border:  1px solid rgb(255, 165, 0,.5) !important;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none
+
+}
+ input:focus {
+    border: 1px solid 1px solid rgb(255, 165, 0,.5) !important;
+    outline: 2px solid rgb(255, 165, 0,.6) !important;
+}
+
+ label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+form a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: black;;
+    transition: all linear 160ms;
+}
+
+form a:hover {
+    color: black;
+}
+
+.btn {
+    background-color: rgb(255, 165, 0,.5) !important;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #8fff06;
+
+}
+
+.btn-check:checked+.btn, :not(.btn-check)+.btn:active, .btn:first-child:active, .btn.active, .btn.show,.btn-toggle:hover, .btn-toggle:focus{
+    background-color: rgb(255, 165, 0,.5) !important;
+    color: #fff !important
+}
+.venus-sidebar>.list-unstyled .collapse li.submenu{
+    margin-left: 10px;
+}
+
+.btn-toggle-nav a:hover, .btn-toggle-nav a:focus{
+    background-color: rgb(255, 165, 0,.5) !important;
+}
+venus-sidebar .venus-title{
+  font-size: 19px !important;
+}
+*{
+  font-size: 18px !important;
+}
+a span, .flex-nowrap a{
+  font-size: 15px !important;
+}
+
+
+#paraMesas{
+  display: none !important;
+}

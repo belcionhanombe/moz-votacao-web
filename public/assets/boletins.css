@@ -1,0 +1,47 @@
+
+    @page {
+        margin: 1%; /* Remover margens ao imprimir */
+    }
+
+    body {
+        margin: 1%; /* Remover margens ao imprimir */
+    }
+    .imprimir {
+        margin: 5.5% !important;
+    }
+
+    *{
+        text-align: center;
+    }
+    #tabalaCab{
+        width: 100% !important;
+    }
+    #tabalaCab, #tabalaCab tr, #tabalaCab td {
+        border: none !important;
+    }
+    .col-70 {
+        width: 52% !important;
+    }
+
+    .col-10 {
+        width: 16% !important;
+    }
+    .card-img,
+    .card-img-top {
+        max-height: 100px;
+        min-height: 100px;
+    }
+
+    .qrcode>img {
+        width: 15%
+    }
+
+    @page {
+            size: A4;
+            margin: 0;
+        }
+
+        .page-break {
+            page-break-after: always;
+        }
+

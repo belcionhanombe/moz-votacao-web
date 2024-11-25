@@ -1,0 +1,113 @@
+
+td, tr, table, th {
+  border: 1px solid !important;
+}
+table{
+  width: 100%;
+}
+#btbt{
+background-color:  rgb(255, 165, 0,.5) !important;
+border: none !important;
+margin-right: 0% !important;
+}
+#btbt:hover{
+  color: rgb(36, 5, 5);
+  background-color: rgb(250, 250, 242) !important;
+}
+table{
+  align-content: center;
+}
+#elementosFormularios {
+  display: flex;
+  justify-content: center;
+}
+
+#provinciaMobile{
+    display: none;
+}
+@media (max-width: 600px) {
+  #btbt {
+      /* position: absolute; */
+      margin-right: -60% !important;
+      /* top: 0; Opcional: se quiser posicionar também no topo */
+
+  }
+
+  #provincia {
+   display: none;
+  }
+  /* Certifique-se de que o contêiner pai tem posição relativa */
+  .container {
+      position: relative;
+  }
+
+  input:focus {
+  border: 1px solid 1px solid rgb(255, 165, 0,.5) !important;
+   outline: 2px solid rgb(255, 165, 0,.6) !important;
+  }
+  select, #btbt
+  {
+    margin-top: 3.5% !important;
+  }
+}
+
+
+.tituloformulario {
+    background-color: rgba(223, 219, 214, 0.5) !important;
+    margin-top:0;
+    padding-top:0%;
+    font-weight:bolder;
+  }
+
+
+
+  .form-select,
+.form-control {
+  border: 1px solid  rgba(247, 207, 134, 0.5)  !important;
+  box-shadow: none !important;
+}
+.form-select:focus,
+.form-control:focus {
+  border: 1px solid  rgba(247, 207, 134, 0.5) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+
+ select:focus {
+  border: 1px solid  rgba(247, 207, 134, 0.5)  !important; /* Borda preta quando em foco */
+  outline: none !important; /* Remove o outline padrão */
+}
+
+
+form {
+     background: ghostwhite;
+     border: #ebebebeb;
+     margin-left: 0% !important;
+     margin-right: 1% !important;
+}
+
+
+#btbt{
+    background-color:  rgb(255, 165, 0,.5) !important;
+    border: none !important;
+    }
+
+@media (min-width: 601px){
+    #btbt{
+        background-color:  rgb(255, 165, 0,.5) !important;
+        /* border: none !important; */
+        margin-right: -90% !important;
+        margin-top: 0% !important;
+        width: 81%;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-left: 25%;             /* Ajuste conforme necessário */
+        }
+
+}
+
+

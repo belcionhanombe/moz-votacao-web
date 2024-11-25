@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+  body {
+  font-family: Arial, sans-serif;
+  background-color: #fcbc4c;
+  margin: 0;
+}
+
+.menu-icon {
+  display: block;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  padding-top: 60px;
+  transition: left 0.3s ease;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  padding: 15px;
+  border-bottom: 1px solid #555;
+}
+
+.menu ul li:last-child {
+  border-bottom: none;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked + .menu {
+  left: 0;
+}
+
+
+.dropdown-menu {
+  background-color: #ffffff; /* Cor de fundo branca */
+}
+
+.dropdown-menu a {
+  color: #000000; /* Cor do texto preto */
+}
+
+#dropdownMenuButton {
+  width: 100%;
+  text-align: left;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  margin: 0;
+
+
+}
+.dropdown-toggle {
+  display: block; /* Exibe os botões dropdown um abaixo do outro */
+}
+
+.btn-secondary:focus,
+.btn-secondary.focus {
+  box-shadow: none; /* Remove a sombra ao focar */
+}
+
+.btn-secondary.focus:not(:focus) {
+  box-shadow: none; /* Remove a sombra ao perder o foco */
+}
+
+.dropdown-toggle:focus {
+  box-shadow: none; /* Remove a sombra quando o botão é clicado */
+}
+

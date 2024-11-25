@@ -1,0 +1,30 @@
+
+    .btbt {
+        background-color: rgba(255, 165, 0, 0.5) !important;
+        border: none !important;
+        padding: 1.5% 3% !important;
+        border-radius: 6% !important;
+        min-width: 100px !important;
+        text-align: center;
+        color: black !important;
+        text-decoration: none;
+    }
+    .btbt:hover {
+        color: ghostwhite !important;
+        transform: scale(1.05);
+    }
+    .btbt a {
+        color: black;
+        text-decoration: none !important;
+    }
+    .btbt a:hover {
+        color: ghostwhite !important;
+    }
+    td, tr {
+        text-align: center !important;
+        margin: 0.1% !important;
+    }
+    form {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
